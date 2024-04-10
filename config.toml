@@ -27,6 +27,6 @@ min_deadline = 1
 reload_interval = 600
 
 [processing_limits]
-max_iterations = 50
+max_iterations = 100
 max_width = 1024
 max_height = 1024
