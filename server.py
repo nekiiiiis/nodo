@@ -6,7 +6,7 @@ import subprocess
 from openai import OpenAI
 
 class LLMServerConfig:
-    MAX_MODEL_LEN = 3100
+    MAX_MODEL_LEN = 2300
     CHAT_TEMPLATE = ("{% for message in messages %}"
                      "{{'' + message['role'] + '\n' + message['content'] + '' + '\n'}}"
                      "{% endfor %}"
