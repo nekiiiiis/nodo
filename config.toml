@@ -26,7 +26,7 @@ default_sd_model_index = 1
 
 [system]
 # Make sure to increase num_cuda_devices for SD miner if your machine has multiple GPUs
-num_cuda_devices = 1
+num_cuda_devices = 2
 # Number of children processes is only applicable to LLM miner
 num_child_process = 8
 sleep_duration = 1
